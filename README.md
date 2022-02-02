@@ -37,10 +37,12 @@ Run command below
 > &#35; Get MySQL docker container name
 > 
 > docker ps
+
 Open browser and Type "http://localhost:8080/"
+
 Fill out the required info
 - Server:(MySQL container name):3306
-- User:root
+- User Name:root
 - Password:dbrootpass
 
 ### To Execute commands in a runnning container
@@ -52,7 +54,9 @@ Run commands below
 > &#35; Get a bash shell
 > 
 > docker exec -it CONTAINER_NAME /bin/bash
+
 To quit the bash shell, Press the key below
+
 Ctrl + p + q
 
 ### To Stop this docker
