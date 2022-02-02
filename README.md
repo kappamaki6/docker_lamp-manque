@@ -56,5 +56,7 @@ To quit the bash shell, Press the key below
 Ctrl + p + q
 
 ### To Stop this docker
-Run this commands
+Run command below
 > docker-compose down
+
+Bye::ghost:
